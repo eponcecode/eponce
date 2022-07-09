@@ -1,5 +1,6 @@
 {
-  "name": "react-static-example-basic",
+  "name": "eponce",
+  "homepage": "https://eponcecode.github.io/eponce",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
