@@ -25,13 +25,13 @@ function App() {
       <div>
         <table className="content">
           <tr>
-            <td><a href='https://www.patreon.com/eponce' target="_blank" rel="noreferrer">Comunidad Patreon</a></td>
+            <td><a href='https://www.patreon.com/eponce'>Comunidad Patreon</a></td>
           </tr>
           <tr>
-            <td><a href='https://www.amazon.com.mx/eponce-blog/e/B091SFNDVY' target="_blank" rel="noreferrer">Tienda Amazon</a></td>
+            <td><a href='https://www.amazon.com.mx/eponce-blog/e/B091SFNDVY'>Tienda Amazon</a></td>
           </tr>
           <tr>
-            <td><a href='mailto: eponce.blog@gmail.com' target="_blank" rel="noreferrer">Contacto</a></td>
+            <td><a href='mailto: eponce.blog@gmail.com'>Contacto</a></td>
           </tr>
         </table>
         <div>
