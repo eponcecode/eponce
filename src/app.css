@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Courgette&display=swap');
+html{
+  margin: 0;
+  background-color: black;
+  background-image: url(img/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  height: 100%;
+}
+h1{
+  color:black;
+   text-align: center;
+   font-size: 15vh;
+   font-family: 'Courgette', cursive;
+   margin-bottom: 0%;
+}
+h2{
+  color:aliceblue;
+   text-align: center;
+   font-size: 5vh;
+   font-family: 'Courgette', cursive;
+   margin-bottom: 5%;
+   margin-top: 0%;
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+.content{
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 70%;
+}
+.content>tr{
+  margin: 25%;
+}
+.content>tr>td{
+  border-style: dashed;
+  font-size: 4vh;
+  font-family: 'Arima', cursive;
+  margin: 25%;
+}
+.SocialMedia{
+  text-align: center;
+  font-size: 4vh;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+.SocialMedia>a{
+  text-align: center;
+  color: aliceblue;
+  font-size: 4vh;
+  margin-right: 5%
+}
+
+
+.footer{
+  margin-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+}
+.footer>tr>td{
+  border-style: none;
+  font-size: 4vh;
+  font-family: 'Arima', cursive;
+  margin: 25%;
+}
