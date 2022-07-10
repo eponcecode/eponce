@@ -31,7 +31,7 @@ function App() {
             <td><img src='img/para-mi-unica-estrella.png' align="left"/><a href='https://leer.amazon.com.mx/kp/embed?asin=B09DB2GNDC&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_QJVP3FQA7D7F2HGNSQM2'> Para mi única estrella (Poemario)</a></td>
           </tr>
           <tr>
-            <td><img src='img/ultima-oportunidad.png' align="left"/> <div align="center"><a href='https://leer.amazon.com.mx/kp/embed?asin=B08YSGZ5KB&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_ARB7FZWHRZKXFR3HX16Q'> Última Oportunidad (Poemario)</a></div></td>
+            <td><div align="left"><img src='img/ultima-oportunidad.png'/></div> <div align="center"><a href='https://leer.amazon.com.mx/kp/embed?asin=B08YSGZ5KB&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_ARB7FZWHRZKXFR3HX16Q'> Última Oportunidad (Poemario)</a></div></td>
           </tr>
           <tr>
             <td><a href='https://www.amazon.com.mx/eponce-blog/e/B091SFNDVY'>Tienda Amazon</a></td>
