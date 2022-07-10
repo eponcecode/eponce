@@ -5,7 +5,9 @@ html{
   background-image: url(img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: center;
   color: aliceblue;
+  background-attachment: fixed;
   height: 100%;
 }
 img{
