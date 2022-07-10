@@ -75,3 +75,9 @@ a{
   font-family: 'Arima', cursive;
   margin: 25%;
 }
+
+@media screen and (max-width: 600px) {
+  .content>tr>td{
+    font-size: 3vh;
+  }
+}
