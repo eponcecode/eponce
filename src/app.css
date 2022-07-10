@@ -8,6 +8,10 @@ html{
   color: aliceblue;
   height: 100%;
 }
+img{
+  max-width: 5vh;
+  margin-left: 3vh;
+}
 h1{
   color:black;
    text-align: center;
