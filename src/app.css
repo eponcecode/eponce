@@ -40,16 +40,22 @@ a{
   margin-right: auto;
   text-align: center;
   width: 50%;
+  border-collapse: collapse;
+
 }
 .content>tr{
   margin: 25%;
-}
-.content>tr>td{
   border-style: dashed;
   font-size: 4vh;
   font-family: 'Arima', cursive;
   vertical-align: center;
+  border-color: aliceblue;
+}
+.content>tr>td{
   margin: 25%;
+}
+.content>tr>td>.anuncio{
+  color: rgb(254, 130, 6);
 }
 .SocialMedia{
   text-align: center;

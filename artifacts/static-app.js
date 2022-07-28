@@ -701,14 +701,21 @@ function App() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://www.patreon.com/eponce"
   }, "Comunidad Patreon"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "img/para-mi-unica-estrella.png",
+    src: "img/un_angel_en_la_tierra_frente.png",
+    align: "left"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    align: "center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.amazon.com/dp/B0B6M5R9MR"
+  }, "Un \xE1ngel en la Tierra (Un viaje intrapersonal) [Preventa]")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "img/paraminicaestrella.png",
     align: "left"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     align: "center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://leer.amazon.com.mx/kp/embed?asin=B09DB2GNDC&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_QJVP3FQA7D7F2HGNSQM2"
   }, "Para mi \xFAnica estrella (Poemario)")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "img/ultima-oportunidad.png",
+    src: "img/ultimaoportunidad.png",
     align: "left"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     align: "center"
@@ -913,7 +920,7 @@ module.exports = require("react-dom");
 /* 13 */
 /***/ (function(module, exports) {
 
-module.exports = require("/Users/10038223/eponce/node_modules/react-static/lib/browser");
+module.exports = require("/Users/10038223/eponce/website/eponce/node_modules/react-static/lib/browser");
 
 /***/ }),
 /* 14 */
@@ -1922,7 +1929,7 @@ exports["default"] = _default;
 /* 38 */
 /***/ (function(module, exports) {
 
-module.exports = require("/Users/10038223/eponce/node_modules/react-static/lib/browser/hooks/useStaticInfo");
+module.exports = require("/Users/10038223/eponce/website/eponce/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
 /* 39 */
