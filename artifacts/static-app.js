@@ -698,32 +698,39 @@ function App() {
     rel: "noreferrer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_ri__WEBPACK_IMPORTED_MODULE_3__["RiPatreonLine"], null)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
     className: "content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    colspan: "2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://www.patreon.com/eponce"
   }, "Comunidad Patreon"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "img/un_angel_en_la_tierra_frente.png",
     align: "left"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    align: "center"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    align: "center",
+    className: "anuncio"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://www.amazon.com/dp/B0B6M5R9MR"
   }, "Un \xE1ngel en la Tierra (Un viaje intrapersonal) [Preventa]")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "img/paraminicaestrella.png",
     align: "left"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     align: "center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://leer.amazon.com.mx/kp/embed?asin=B09DB2GNDC&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_QJVP3FQA7D7F2HGNSQM2"
   }, "Para mi \xFAnica estrella (Poemario)")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "img/ultimaoportunidad.png",
     align: "left"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     align: "center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://leer.amazon.com.mx/kp/embed?asin=B08YSGZ5KB&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_ARB7FZWHRZKXFR3HX16Q"
-  }, "\xDAltima Oportunidad (Poemario)")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "\xDAltima Oportunidad (Poemario)")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    colspan: "2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://www.amazon.com.mx/eponce-blog/e/B091SFNDVY"
-  }, "Tienda Amazon"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "Tienda Amazon"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    colspan: "2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "mailto: eponce.blog@gmail.com"
   }, "Contacto")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
     className: "footer"
@@ -2062,7 +2069,7 @@ var urlEscape = __webpack_require__(46);
 var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(47));
 
 // Module
-exports.push([module.i, "html{\n  background-color: black;\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position-y: center;\n  background-attachment: fixed;\n  height: 100%;\n  color: aliceblue;\n  \n}\nimg{\n  max-width: 5vh;\n  margin-left: 3vh;\n}\nh1{\n  color:black;\n   text-align: center;\n   font-size: 15vh;\n   font-family: 'Courgette', cursive;\n   margin-bottom: 0%;\n}\nh2{\n  color:aliceblue;\n   text-align: center;\n   font-size: 5vh;\n   font-family: 'Courgette', cursive;\n   margin-bottom: 5%;\n   margin-top: 0%;\n}\na{\n  text-decoration: none;\n  color: aliceblue;\n  cursor: pointer;\n}\n.content{\n  margin-top: 4%;\n  margin-left: auto;\n  margin-right: auto;\n  text-align: center;\n  width: 50%;\n}\n.content>tr{\n  margin: 25%;\n}\n.content>tr>td{\n  border-style: dashed;\n  font-size: 4vh;\n  font-family: 'Arima', cursive;\n  vertical-align: center;\n  margin: 25%;\n}\n.SocialMedia{\n  text-align: center;\n  font-size: 4vh;\n  margin-top: 0%;\n  padding-top: 0%;\n}\n.SocialMedia>a{\n  text-align: center;\n  color: aliceblue;\n  font-size: 4vh;\n  margin-right: 5%\n}\n\n\n.footer{\n  margin-top: 5%;\n  margin-left: auto;\n  margin-right: auto;\n  text-align: center;\n  width: 50%;\n}\n.footer>tr>td{\n  border-style: none;\n  font-size: 4vh;\n  font-family: 'Arima', cursive;\n  margin: 25%;\n}\n\n@media screen and (max-width: 600px) {\n  .content{\n    width: 70%;\n  }\n  .content>tr>td{\n    font-size: 3vh;\n  }\n  .footer{\n    width: 70%;\n  }\n  .footer>tr>td{\n    font-size: 3vh;\n  }\n}", ""]);
+exports.push([module.i, "html{\n  background-color: black;\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position-y: center;\n  background-attachment: fixed;\n  height: 100%;\n  color: aliceblue;\n  \n}\nimg{\n  max-width: 5vh;\n  margin-left: 3vh;\n}\nh1{\n  color:black;\n   text-align: center;\n   font-size: 15vh;\n   font-family: 'Courgette', cursive;\n   margin-bottom: 0%;\n}\nh2{\n  color:aliceblue;\n   text-align: center;\n   font-size: 5vh;\n   font-family: 'Courgette', cursive;\n   margin-bottom: 5%;\n   margin-top: 0%;\n}\na{\n  text-decoration: none;\n  color: aliceblue;\n  cursor: pointer;\n}\n.content{\n  margin-top: 4%;\n  margin-left: auto;\n  margin-right: auto;\n  text-align: center;\n  width: 50%;\n  border-collapse: collapse;\n\n}\n.content>tr{\n  margin: 25%;\n  border-style: dashed;\n  font-size: 4vh;\n  font-family: 'Arima', cursive;\n  vertical-align: center;\n  border-color: aliceblue;\n}\n.content>tr>td{\n  margin: 25%;\n}\n.content>tr>td>.anuncio{\n  color: rgb(254, 130, 6);\n}\n.SocialMedia{\n  text-align: center;\n  font-size: 4vh;\n  margin-top: 0%;\n  padding-top: 0%;\n}\n.SocialMedia>a{\n  text-align: center;\n  color: aliceblue;\n  font-size: 4vh;\n  margin-right: 5%\n}\n\n\n.footer{\n  margin-top: 5%;\n  margin-left: auto;\n  margin-right: auto;\n  text-align: center;\n  width: 50%;\n}\n.footer>tr>td{\n  border-style: none;\n  font-size: 4vh;\n  font-family: 'Arima', cursive;\n  margin: 25%;\n}\n\n@media screen and (max-width: 600px) {\n  .content{\n    width: 70%;\n  }\n  .content>tr>td{\n    font-size: 3vh;\n  }\n  .footer{\n    width: 70%;\n  }\n  .footer>tr>td{\n    font-size: 3vh;\n  }\n}", ""]);
 
 
 

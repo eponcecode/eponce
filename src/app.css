@@ -43,7 +43,7 @@ a{
   border-collapse: collapse;
 
 }
-.content>tr{
+.content>tbody>tr{
   margin: 25%;
   border-style: dashed;
   font-size: 4vh;
@@ -51,10 +51,10 @@ a{
   vertical-align: center;
   border-color: aliceblue;
 }
-.content>tr>td{
+.content>tbody>tr>td{
   margin: 25%;
 }
-.content>tr>td>.anuncio{
+.content>tbody>tr>td>.anuncio{
   color: rgb(254, 130, 6);
 }
 .SocialMedia{
@@ -78,7 +78,7 @@ a{
   text-align: center;
   width: 50%;
 }
-.footer>tr>td{
+.footer>tbody>tr>td{
   border-style: none;
   font-size: 4vh;
   font-family: 'Arima', cursive;
@@ -89,13 +89,13 @@ a{
   .content{
     width: 70%;
   }
-  .content>tr>td{
+  .content>tbody>tr>td{
     font-size: 3vh;
   }
   .footer{
     width: 70%;
   }
-  .footer>tr>td{
+  .footer>tbody>tr>td{
     font-size: 3vh;
   }
 }
