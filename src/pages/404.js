@@ -6,8 +6,8 @@ export default function DontFound (){
   <tbody>
   <tr>
     <td>    <div className='center'>
-    <h3>Oh no! What are you here? </h3>
-    <span>Come <Link to="/">here</Link> to go to the front page!</span>
+    <h3>Oh no! ¿Cómo llegaste aquí? </h3>
+    <span>Haz clic <Link to="/">aquí</Link> para regresar a la página principal!</span>
   </div></td>
   </tr>
   </tbody>
