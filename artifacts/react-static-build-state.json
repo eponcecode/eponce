@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/Users/10038223/eponce/website/eponce/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/10038223/eponce/website/eponce/src/pages"
+      }
+    ],
+    "/Users/10038223/eponce/website/eponce/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/10038223/eponce/website/eponce/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/10038223/eponce/website/eponce"
+  ],
+  "paths": {
+    "ROOT": "/Users/10038223/eponce/website/eponce",
+    "SRC": "/Users/10038223/eponce/website/eponce/src",
+    "DIST": "/Users/10038223/eponce/website/eponce/dist",
+    "ASSETS": "/Users/10038223/eponce/website/eponce/dist",
+    "PLUGINS": "/Users/10038223/eponce/website/eponce/plugins",
+    "TEMP": "/Users/10038223/eponce/website/eponce/tmp",
+    "ARTIFACTS": "/Users/10038223/eponce/website/eponce/artifacts",
+    "PUBLIC": "/Users/10038223/eponce/website/eponce/public",
+    "NODE_MODULES": "/Users/10038223/eponce/website/eponce/node_modules",
+    "EXCLUDE_MODULES": "/Users/10038223/eponce/website/eponce/node_modules",
+    "PACKAGE": "/Users/10038223/eponce/website/eponce/package.json",
+    "HTML_TEMPLATE": "/Users/10038223/eponce/website/eponce/dist/index.html",
+    "STATIC_DATA": "/Users/10038223/eponce/website/eponce/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}

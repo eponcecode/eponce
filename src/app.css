@@ -115,6 +115,9 @@ a{
   .content{
     width: 70%;
   }
+  .poesiaContainer{
+    width: 70%;
+  }
   .content>tbody>tr>td{
     font-size: 3vh;
   }
