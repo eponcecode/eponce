@@ -1,20 +1,10 @@
 import React from 'react'
-import { FiFacebook,FiInstagram,FiTwitter } from 'react-icons/fi'
-import {RiPatreonLine} from 'react-icons/ri'
 
+import Header from './header'
 export default function Home(){
   return(
     <>
-      <div>
-        <h1>eponce</h1>
-        <h2><b>Poesía</b></h2>
-        <div className='SocialMedia'>
-          <a href='https://www.facebook.com/eponce.blog' target="_blank" rel="noreferrer"><FiFacebook /></a>
-          <a href='https://www.twitter.com/eponce_blog' target="_blank" rel="noreferrer"> <FiTwitter /></a>
-          <a href='https://www.instagram.com/eponce.blog' target="_blank" rel="noreferrer"><FiInstagram /></a>
-          <a href='https://www.patreon.com/eponce' target="_blank" rel="noreferrer"><RiPatreonLine /></a>
-        </div>
-      </div>
+    <Header/>
         <table className="content">
           <tbody>
           <tr>

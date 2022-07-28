@@ -29,6 +29,26 @@ h2{
    margin-bottom: 5%;
    margin-top: 0%;
 }
+.poesia:hover{
+  color: black;
+  cursor: pointer;
+}
+.poesiaContainer{
+  text-align: justify;
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-collapse: collapse;
+  font-size: 4vh;
+  font-family: 'Arima', cursive;
+  border-style: dashed;
+  border-color: aliceblue;
+}
+.poesiaContainer>tbody>tr>td>p{
+ margin-left: 5%;
+ margin-right: 5%;
+}
 a{
   text-decoration: none;
   color: aliceblue;
@@ -69,6 +89,9 @@ a{
   font-size: 4vh;
   margin-right: 5%
 }
+.SocialMedia>a:hover{
+  color: black;
+}
 
 
 .footer{
@@ -84,7 +107,10 @@ a{
   font-family: 'Arima', cursive;
   margin: 25%;
 }
-
+.content>tbody>tr>td>a:hover{
+  color: black;
+  text-shadow: 0 0 50px #fff;
+}
 @media screen and (max-width: 600px) {
   .content{
     width: 70%;
