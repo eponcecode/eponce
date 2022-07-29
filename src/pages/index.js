@@ -13,7 +13,7 @@ export default function Home(){
           <tr>
             <td><img src='img/un_angel_en_la_tierra_frente.png' align="left"/></td>
             <td className='anuncio'><a href='https://www.amazon.com/dp/B0B6M5R9MR'>
-               Un ángel en la Tierra (Un viaje intrapersonal) [Preventa]</a></td>
+               Un ángel en la Tierra - Un viaje intrapersonal (Poemario) [Preventa]</a></td>
           </tr>
           <tr>
             <td><img src='img/paraminicaestrella.png' align="left"/></td>
