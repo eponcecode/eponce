@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 
 import Header from './header'
 export default function Home(){
@@ -33,13 +34,6 @@ export default function Home(){
           </tr>
           </tbody>
         </table>
-          <table className="footer">
-            <tbody>
-            <tr>
-              <td>© eponce</td>
-            </tr>
-            </tbody>
-          </table>
-
+        <Footer/>
     </>)
   }

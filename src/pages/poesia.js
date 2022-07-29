@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 import HeaderHidded from './headerhidded'
 
 export default function Poesia() {
@@ -17,6 +18,7 @@ export default function Poesia() {
         </tr>
       </tbody>
     </table>
+    <Footer/>
    </>
   )
   }
