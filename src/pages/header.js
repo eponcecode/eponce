@@ -5,7 +5,7 @@ import {Link} from '../components/Router'
 export default function Header(){
     return(
         <div>
-        <Link to="/"><h1 className="eponce">eponce</h1></Link>
+        <Link to="/"><h1>eponce</h1></Link>
         <Link to="/poesia"><h2 className='poesia'><b>Poesía</b></h2></Link>
         <div className='SocialMedia'>
           <a href='https://www.facebook.com/eponce.blog' target="_blank" rel="noreferrer"><FiFacebook /></a>

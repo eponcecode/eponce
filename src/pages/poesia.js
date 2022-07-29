@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from './header'
+import HeaderHidded from './headerhidded'
 
 export default function Poesia() {
   return(
    <>
-   <Header/>
+   <HeaderHidded/>
     <table className='poesiaContainer'>
       <tbody>
         <tr>
