@@ -96,7 +96,19 @@ a{
 .SocialMedia>a:hover{
   color: black;
 }
-
+.dontFound{
+  margin-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+}
+.dontFound>tbody>tr>td{
+  border-style: none;
+  font-size: 4vh;
+  font-family: 'Arima', cursive;
+  margin: 25%;
+}
 
 .footer{
   margin-top: 5%;
@@ -129,6 +141,12 @@ a{
     width: 70%;
   }
   .footer>tbody>tr>td{
+    font-size: 3vh;
+  }
+  .dontFound{
+    width: 70%;
+  }
+  .dontFound>tbody>tr>td{
     font-size: 3vh;
   }
 }
