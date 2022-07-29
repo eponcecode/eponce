@@ -6,6 +6,7 @@ html{
   background-size: cover;
   background-position-y: center;
   background-attachment: fixed;
+  background-position: fixed;
   height: 100%;
   color: aliceblue;
   
