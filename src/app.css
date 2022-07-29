@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Courgette&display=swap');
+
 html{
-  background-color: black;
-}
-body{
   background-color: black;
   background-image: url(img/background.png);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position-y: center;
-  background-attachment: fixed;
+  background-position-x: center;
+  background-size: 100%;
   background-position: fixed;
   height: 100%;
   color: aliceblue;
