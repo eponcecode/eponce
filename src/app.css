@@ -29,6 +29,10 @@ h2{
    margin-bottom: 5%;
    margin-top: 0%;
 }
+.eponce:hover{
+  color: aliceblue;
+  cursor: pointer;
+}
 .poesia:hover{
   color: black;
   cursor: pointer;
