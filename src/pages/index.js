@@ -30,7 +30,7 @@ export default function Home(){
             <td colSpan="2"><a href='https://www.amazon.com.mx/eponce-blog/e/B091SFNDVY'>Tienda Amazon</a></td>
           </tr>
           <tr>
-            <td colSpan="2"><a href='mailto: eponce.blog@gmail.com'>Contacto</a></td>
+            <td colSpan="2"><a href='mailto: eponce.poesia@gmail.com'>Contacto</a></td>
           </tr>
           </tbody>
         </table>
