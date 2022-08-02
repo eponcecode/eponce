@@ -9,7 +9,7 @@ export default function Home(){
         <table className="content">
           <tbody>
           <tr>
-            <td colSpan="2"><a href='https://www.patreon.com/eponce'>Comunidad Patreon</a></td>
+            <td colSpan="2"><Link to="/patreon">Comunidad Patreon</Link></td>
           </tr>
           <tr>
             <td><img src='img/un_angel_en_la_tierra_frente.png' align="left"/></td>

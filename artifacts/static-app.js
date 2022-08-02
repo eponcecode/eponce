@@ -2350,7 +2350,7 @@ module.exports = function escape(url, needQuotes) {
 /* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/background.1529024b.png";
+module.exports = __webpack_require__.p + "static/background.43a7b866.jpeg";
 
 /***/ })
 /******/ ]);
