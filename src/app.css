@@ -60,6 +60,23 @@ a{
   color: aliceblue;
   cursor: pointer;
 }
+.presentacion{
+    text-align: justify;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-collapse: collapse;
+    font-size: 3vh;
+    font-family: 'Arima', cursive;
+    border-style: dashed;
+    border-color: aliceblue;
+}
+
+.presentacion>tbody>tr>td{
+  text-align: center;
+  margin-top: 5%;
+}
 .content{
   margin-top: 4%;
   margin-left: auto;
@@ -67,7 +84,6 @@ a{
   text-align: center;
   width: 50%;
   border-collapse: collapse;
-
 }
 .content>tbody>tr{
   margin: 25%;
@@ -80,8 +96,9 @@ a{
 .content>tbody>tr>td{
   margin: 25%;
 }
-.content>tbody>tr>td>.anuncio{
-  color: rgb(254, 130, 6);
+.content>tbody>tr>td>div{
+  margin: 5%;
+  text-align: justify;
 }
 .SocialMedia{
   text-align: center;
