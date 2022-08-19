@@ -25,10 +25,10 @@ export default function Home() {
                 <br /><br />
                 Me encantaría que tu formaras parte de él úniendote a la lectura de alguno de mis poemarios en sus diversos formatos [ebook kindle | tapa blanda] que van detallando este universo paso a paso...
                 o mejor aún, mantente en contacto conmigo y se parte del desarrollo a través de nuestra comunidad en Patreon, para esto y más estan los enlaces aquí debajo.
-                <br /><br />
-                Bienvenido.<br /><br />
-                -eponce
+                <br />
               </div>
+              Bienvenido.<br /><br />
+              eponce<br/><br/>
             </td>
           </tr>
           <tr>
