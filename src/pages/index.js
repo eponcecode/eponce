@@ -19,8 +19,7 @@ export default function Home() {
               -eponce<br />
             </small>
               <div>
-                De nacionalidad mexicana, escribo por amor a la poesía.<br />
-                Siempre tuve universos alternos en mi mente desde que era pequeña y en cuanto aprendí sobre este arte me entuciasmé mucho por plasmar cada uno de ellos en esto...
+                Escribo por amor a la poesía, siempre tuve universos alternos en mi mente desde que era pequeña y en cuanto aprendí sobre este arte me entuciasmé mucho por plasmar cada uno de ellos en esto...
                 <br />
                 A lo largo del tiempo ha ido creciendo y tomando forma en un unico universo lleno de miles más...
                 <br /><br />
