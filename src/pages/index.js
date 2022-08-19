@@ -10,6 +10,7 @@ export default function Home() {
         <tbody>
           <tr>
             <td colSpan="2">
+                <h3>Acerca de</h3>
             <small>
               Algunos textos fuera de contexto...<br />
               Algunos sentimientos y otros más pensamientos<br />
@@ -24,8 +25,7 @@ export default function Home() {
                 A lo largo del tiempo ha ido creciendo y tomando forma en un unico universo lleno de miles más...
                 <br /><br />
                 Me encantaría que tu formaras parte de él úniendote a la lectura de alguno de mis poemarios en sus diversos formatos [ebook kindle | tapa blanda] que van detallando este universo paso a paso...
-                o mejor aún, mantente en contacto conmigo y se parte del desarrollo a través de nuestra comunidad en Patreon.<br />
-                Para esto y más estan los links aquí debajo.
+                o mejor aún, mantente en contacto conmigo y se parte del desarrollo a través de nuestra comunidad en Patreon, para esto y más estan los enlaces aquí debajo.
                 <br /><br />
                 Bienvenido.<br /><br />
                 -eponce
