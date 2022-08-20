@@ -1,6 +1,6 @@
 {
   "name": "eponce",
-  "homepage": "https://eponcecode.github.io/eponce",
+  "homepage": "eponce.ink",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
