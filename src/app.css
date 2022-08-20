@@ -76,8 +76,13 @@ a{
   vertical-align: center;
   border-color: aliceblue;
 }
+
 .content>tbody>tr>td{
   margin: 25%;
+}
+
+.content>tbody>tr>td>img{
+  vertical-align: middle
 }
 .content>tbody>tr>td>div{
   margin: 5%;
