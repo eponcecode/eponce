@@ -14,6 +14,8 @@ export default function Poesia() {
     <p>estamos cubiertos de ellos y vamos en busca de un poco más...</p>
     <p>Un poco más que pide nuestra alma, sólo para hacernos sentir mejor</p>
     <p>Más especiales, más reales, más simplemente nosotros mismos.</p>
+    <br/>
+    <p>-eponce</p>
           </td>
         </tr>
       </tbody>
