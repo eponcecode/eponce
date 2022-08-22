@@ -10,10 +10,10 @@ export default function Poesia() {
       <tbody>
         <tr>
           <td>
-    <p>Érase una vez una chica que amaba plasmar sus pensamientos en un diario, un diario lejano que poco a poco se convirtió en su hogar...</p>
-    <p>Un hogar de ultratumba llena de fantasía y reflexión</p>
-    <p>¿Ese mundo era cierto o sólo parte de su mente?</p>
-    <p>Sería curioso saberlo...</p>
+    <p>Secretos...</p>
+    <p>estamos cubiertos de ellos y vamos en busca de un poco más...</p>
+    <p>Un poco más que pide nuestra alma, sólo para hacernos sentir mejor</p>
+    <p>Más especiales, más reales, más simplemente nosotros mismos.</p>
           </td>
         </tr>
       </tbody>
