@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Eponce Poesia</title>
+  <base href="/eponce">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/icon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Beau+Rivage&display=swap" rel="stylesheet">
+  <script type='text/javascript'>
+    document.addEventListener("contextmenu", function(event){
+      event.preventDefault();
+    }, false);
+    document.addEventListener("copy", function(event){
+      // Change the copied text if you want
+      event.clipboardData.setData("text/plain", "https://eponce.ink/");
+
+      // Prevent the default copy action
+      event.preventDefault();
+    }, false);
+  </script>
+
+</head>
+<body class="mat-typography">
+  <app-root></app-root>
+  <div [ngClass]="'contenido'" #divElement>
+  </div>
+
+</body>
+</html>

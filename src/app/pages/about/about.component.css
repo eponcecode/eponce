@@ -1,0 +1,14 @@
+.about{
+  text-align: justify;
+  margin-top: 3vh;
+  align-items: center;
+  margin-bottom: 10vh ;
+}
+.about-text{
+  padding: 3vh;
+}
+.profile{
+  width: auto;
+  padding: 3vh;
+  height: auto;
+}

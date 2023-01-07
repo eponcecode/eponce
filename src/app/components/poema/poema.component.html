@@ -1,0 +1,6 @@
+<div [ngClass]="'div-poemas'">
+  <div align="center" [ngClass]="'div-poema'" *ngFor="let poema of Poemas">
+    <img [ngClass]="'img-fluid'" src="assets/spacer.png"/>
+    <div [innerHTML]="reformat(poema)"></div>
+  </div>
+</div>

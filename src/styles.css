@@ -1,0 +1,21 @@
+html,body{
+  background-image: url("/poesia/assets/box.png");
+  /*background-image: url("/assets/box.png");*/
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+  font-family: 'Aref Ruqaa Ink', serif !important;
+
+}
+h1,h4{
+  font-family: 'Beau Rivag' !important;
+  vertical-align: center !important;
+}
+.box-title {
+  background-color: rgba(0, 0, 0, .7);
+  color: lightgray;
+  margin: 5vh auto 3vh;
+  padding-top: 1vh;
+  width: 80%;
+  border: 3px solid rgba(244, 228, 195);
+}
