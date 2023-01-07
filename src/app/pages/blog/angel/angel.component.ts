@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AngelComponent {
   private list:string[]=[
-    "/poesia/assets/poemas/sangre",
-    "/poesia/assets/poemas/designio-II",
+    "/assets/poemas/sangre",
+    "/assets/poemas/designio-II",
   ]
 
   private listdev:string[]=[

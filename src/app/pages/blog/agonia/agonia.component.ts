@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AgoniaComponent {
   private list:string[]=[
-    "/poesia/assets/poemas/rey",
+    "/assets/poemas/rey",
   ]
 //  "/poesia/assets/poemas/muerta"
   private listdev:string[]=[

@@ -8,8 +8,8 @@ import {AfterViewInit, Component, ElementRef, ViewChild} from '@angular/core';
 export class BlogComponent{
  private list:string[]=[
 
-    "/poesia/assets/poemas/rey",
-    "/poesia/assets/poemas/sangre"
+    "assets/poemas/rey",
+    "assets/poemas/sangre"
   ]
   private listdev:string[]=[
     "/assets/poemas/rey",
