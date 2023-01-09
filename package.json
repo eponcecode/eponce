@@ -1,7 +1,7 @@
 {
   "name": "poesia",
   "version": "0.0.0",
-  "homepage": "eponce.ink",
+  "homepage": "https://eponce.ink",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
