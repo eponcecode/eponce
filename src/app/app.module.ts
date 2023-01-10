@@ -11,7 +11,6 @@ import { PoemaComponent } from './components/poema/poema.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { AgoniaComponent } from './pages/blog/agonia/agonia.component';
 import { AngelComponent } from './pages/blog/angel/angel.component';
-import { TiendaComponent } from './pages/tienda/tienda.component';
 import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
@@ -20,8 +19,7 @@ import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
     PoemaComponent,
     BlogComponent,
     AgoniaComponent,
-    AngelComponent,
-    TiendaComponent
+    AngelComponent
   ],
   imports: [
     BrowserModule,

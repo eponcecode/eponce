@@ -19,3 +19,11 @@ h1,h4{
   width: 80%;
   border: 3px solid rgba(244, 228, 195);
 }
+.brand:hover{
+  cursor: pointer;
+  color: rgb(230, 188, 61);
+  border-color: rgb(230, 188, 61);
+}
+.box-brand{
+  margin-bottom: 10vh ;
+}
