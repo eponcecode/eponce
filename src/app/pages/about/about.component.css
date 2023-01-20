@@ -1,14 +1,9 @@
-.about{
-  text-align: justify;
-  align-items: center;
-  margin: 10vh ;
+.acerca{
+  margin: 0px 0px 3vh;
 }
 a{
   color: azure;
 }
 .columna{
-  margin: 0px;
-}
-.text-about{
-  text-align: justify;
+  margin: 5vh 0px 0px;
 }

@@ -1,28 +1,37 @@
 <div [ngClass]="'contenido'">
-  <div class="text-center box-title">
-    <h1 class="title">BIENVENID@</h1>
-  </div>
+    <div class="text-center box-title">
+        <h1 class="title">BIENVENID@</h1>
+    </div>
 
-  <app-poema [poemas]=this.List></app-poema>
-  <app-about></app-about>
-  <div class="text-center box-title">
-    <h1 class="title">LECTURA LIBRE</h1>
-  </div>
-  <div class="row">
-    <div class="col-sm-12 col-lg-6" [routerLink]="'/un-angel-en-la-tierra'">
-      <div class="text-center box-title brand">
-        <h1 class="title">UN ÁNGEL EN LA TIERRA</h1>
-      </div>
+    <app-poema [poemas]=this.List></app-poema>
+    <app-about></app-about>
+    <div class="text-center box-title">
+        <h1 class="title">LECTURA LIBRE</h1>
     </div>
-    <div class="col-sm-12 col-lg-6" [routerLink]="'/agonia-melancolica'">
-      <div class="text-center box-title brand">
-        <h1 class="title">AGONÍA MELANCÓLICA</h1>
-      </div>
+    <div class="row">
+        <div class="col-sm-12 col-lg-6" (click)="isUnAngelCollapsed = ! isUnAngelCollapsed">
+            <div class="text-center box-title brand">
+                <h1 class="title">UN ÁNGEL EN LA TIERRA</h1>
+            </div>
+            <div [(ngbCollapse)]="isUnAngelCollapsed">
+                <app-angel></app-angel>
+            </div>
+        </div>
+
+            <div class="col-sm-12 col-lg-6" (click)="isAgoniaMelancolicaCollapsed = ! isAgoniaMelancolicaCollapsed">
+                <div class="text-center box-title brand">
+                    <h1 class="title">AGONÍA MELANCÓLICA</h1>
+                </div>
+              <div [(ngbCollapse)]="isAgoniaMelancolicaCollapsed">
+                <app-agonia></app-agonia>
+            </div>
+
+        </div>
     </div>
-  </div>
-  <a href="https://www.amazon.com/stores/Estefan%C3%ADa-Ponce-de-Le%C3%B3n/author/B0BRHJ37GH" target="_blank" rel="noreferrer">
-    <div class="text-center box-title brand">
-    <h1 class="title">LIBROS</h1>
-  </div>
-  </a>
+    <a href="https://www.amazon.com/stores/Estefan%C3%ADa-Ponce-de-Le%C3%B3n/author/B0BRHJ37GH" target="_blank"
+       rel="noreferrer">
+        <div class="text-center box-title brand">
+            <h1 class="title">LIBROS</h1>
+        </div>
+    </a>
 </div>

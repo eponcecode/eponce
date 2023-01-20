@@ -25,4 +25,7 @@ export class BlogComponent{
   get Listdev(){
     return this.listdev
   }
+
+    isUnAngelCollapsed = true;
+    isAgoniaMelancolicaCollapsed = true;
 }
