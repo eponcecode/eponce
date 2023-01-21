@@ -12,6 +12,8 @@ import { BlogComponent } from './pages/blog/blog.component';
 import { AgoniaComponent } from './pages/blog/agonia/agonia.component';
 import { AngelComponent } from './pages/blog/angel/angel.component';
 import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
+import { PatreonComponent } from './pages/patreon/patreon.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,8 @@ import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
     PoemaComponent,
     BlogComponent,
     AgoniaComponent,
-    AngelComponent
+    AngelComponent,
+    PatreonComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +30,8 @@ import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
     NgbModule,
     BrowserAnimationsModule,
     MaterialModule,
-    NgbCollapseModule
+    NgbCollapseModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
