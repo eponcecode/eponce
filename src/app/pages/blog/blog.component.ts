@@ -9,7 +9,6 @@ export class BlogComponent{
  private list:string[]=[
 
     "assets/poemas/rey",
-    "assets/poemas/sangre"
   ]
   private listdev:string[]=[
     "/assets/poemas/rey",
