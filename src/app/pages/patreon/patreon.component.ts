@@ -11,7 +11,7 @@ export class PatreonComponent implements OnInit{
   constructor() {}
 
   ngOnInit(): void {
-      setTimeout(() => { window.location.href = 'https://www.patreon.com/eponce'}, 3000);
+      setTimeout(() => { window.location.href = 'https://www.patreon.com/eponce'}, 2000);
   }
 
 
