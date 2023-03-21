@@ -8,21 +8,10 @@ import {AfterViewInit, Component, ElementRef, ViewChild} from '@angular/core';
 export class BlogComponent{
  private list:string[]=[
 
-    "assets/poemas/rey",
-  ]
-  private listdev:string[]=[
-    "/assets/poemas/rey",
-    "/assets/poemas/sangre",
-    "/assets/poemas/muerta",
-    "/assets/poemas/descenso",
-    "/assets/poemas/designio-II",
+    "assets/poemas/angeles",
   ]
   get List(){
    return this.list
-  }
-
-  get Listdev(){
-    return this.listdev
   }
 
     isUnAngelCollapsed = true;

@@ -11,15 +11,8 @@ export class AngelComponent {
     "/assets/poemas/designio-II",
   ]
 
-  private listdev:string[]=[
-    "/assets/poemas/sangre",
-    "/assets/poemas/designio-II",
-  ]
   get List(){
     return this.list
   }
 
-  get Listdev(){
-    return this.listdev
-  }
 }
