@@ -5,29 +5,6 @@
 
     <app-poema [poemas]=this.List></app-poema>
     <app-about></app-about>
-    <div class="text-center box-title">
-        <h1 class="title">LECTURA LIBRE</h1>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 col-lg-6" (click)="isUnAngelCollapsed = ! isUnAngelCollapsed">
-            <div class="text-center box-title brand">
-                <h1 class="title">UN ÁNGEL EN LA TIERRA</h1>
-            </div>
-            <div [(ngbCollapse)]="isUnAngelCollapsed">
-                <app-angel></app-angel>
-            </div>
-        </div>
-
-            <div class="col-sm-12 col-lg-6" (click)="isAgoniaMelancolicaCollapsed = ! isAgoniaMelancolicaCollapsed">
-                <div class="text-center box-title brand">
-                    <h1 class="title">AGONÍA MELANCÓLICA</h1>
-                </div>
-              <div [(ngbCollapse)]="isAgoniaMelancolicaCollapsed">
-                <app-agonia></app-agonia>
-            </div>
-
-        </div>
-    </div>
    <div class="row text-center ">
        <div class="col-12" (click)="isDedicationsCollapsed = ! isDedicationsCollapsed">
            <div class="text-center box-title brand">
