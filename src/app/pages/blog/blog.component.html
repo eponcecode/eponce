@@ -28,6 +28,16 @@
 
         </div>
     </div>
+   <div class="row text-center ">
+       <div class="col-12" (click)="isDedicationsCollapsed = ! isDedicationsCollapsed">
+           <div class="text-center box-title brand">
+               <h1 class="title">DEDICATORIAS</h1>
+           </div>
+           <div [(ngbCollapse)]="isDedicationsCollapsed">
+               <app-dedications></app-dedications>
+           </div>
+       </div>
+   </div>
     <a href="https://www.amazon.com/stores/Estefan%C3%ADa-Ponce-de-Le%C3%B3n/author/B0BRHJ37GH" target="_blank"
        rel="noreferrer">
         <div class="text-center box-title brand">

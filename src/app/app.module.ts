@@ -14,6 +14,7 @@ import { AngelComponent } from './pages/blog/angel/angel.component';
 import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 import { PatreonComponent } from './pages/patreon/patreon.component';
 import { HttpClientModule } from '@angular/common/http';
+import { DedicationsComponent } from './pages/dedications/dedications.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { HttpClientModule } from '@angular/common/http';
     BlogComponent,
     AgoniaComponent,
     AngelComponent,
-    PatreonComponent
+    PatreonComponent,
+    DedicationsComponent
   ],
   imports: [
     BrowserModule,

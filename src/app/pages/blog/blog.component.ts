@@ -1,4 +1,4 @@
-import {AfterViewInit, Component, ElementRef, ViewChild} from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-blog',
@@ -16,4 +16,5 @@ export class BlogComponent{
 
     isUnAngelCollapsed = true;
     isAgoniaMelancolicaCollapsed = true;
+    isDedicationsCollapsed = true;
 }
