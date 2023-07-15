@@ -9,12 +9,9 @@ export class BlogComponent{
  private list:string[]=[
 
     "assets/poemas/angeles",
+     "assets/poemas/diferente"
   ]
   get List(){
    return this.list
   }
-
-    isUnAngelCollapsed = true;
-    isAgoniaMelancolicaCollapsed = true;
-    isDedicationsCollapsed = true;
 }
