@@ -8,8 +8,7 @@ import { Component} from '@angular/core';
 export class BlogComponent{
  private list:string[]=[
 
-    "assets/poemas/angeles",
-     "assets/poemas/diferente"
+    "assets/poemas/angeles"
   ]
   get List(){
    return this.list
